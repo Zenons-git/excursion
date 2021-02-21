@@ -11,19 +11,74 @@ h1 {
     font-size: 5.5rem;
     font-weight: 520;
 }
+a {
+    color: turquoise;
+    font-size: 2rem;
+    text-decoration: none;
+}
 
 .body {
-    margin: 0 25%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-around;
+    max-width: 50%;
+    flex-shrink: 2;
+    margin: auto;
+    text-align: center;
 }
 
 .body a {
-    width: 50%;
-    height: auto;
-    
+    margin: auto;
 }
 
-a {
-    font-size: 2rem;
-    color: teal;
-    text-decoration: none;
+.body h2 {
+    margin: auto;
+    font-size: 4rem;
+}
+
+.body h4 {
+    margin: 5rem auto;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: rgb(92, 92, 92);
+}
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-around;
+    max-width: 50%;
+    flex-shrink: 2;
+    margin: auto;
+    text-align: center;
+}
+
+footer img {
+    width: 7rem;
+    margin: 4rem auto;
+}
+
+footer h2 {
+    margin: 5rem auto;
+    width: 75%;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+footer a {
+    margin: auto;
+    text-align: right;
+}
+
+#water-mark {
+margin: 5rem 100%;
+margin-bottom: 0;
+}
+
+#water-mark i {
+position: absolute;
+    
 }
